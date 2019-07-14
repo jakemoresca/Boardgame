@@ -1,0 +1,149 @@
+{
+  "orientation": "landscape",
+  "selected_view_id": "view-0",
+  "views": [
+    {
+      "id": "view-0",
+      "sections": [
+        {
+          "id": "view-0-section-1",
+          "elements": [
+            {
+              "id": "view-0-section-1-element-0",
+              "key": "button",
+              "name": "Button",
+              "tmpl": "button",
+              "constructor_fn": "ButtonElement",
+              "options": {
+                "constructor_args": {},
+                "attr_id": "view-0-section-1-element-0",
+                "css_classes": "button-300-150",
+                "view_action": {
+                  "target": null,
+                  "view_id": null
+                },
+                "label": "Start",
+                "send_onrelease": false,
+                "message_data": [
+                  {
+                    "key": "start",
+                    "value": "newGame"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "view-0-section-1-element-1",
+              "key": "button",
+              "name": "Button",
+              "tmpl": "button",
+              "constructor_fn": "ButtonElement",
+              "options": {
+                "constructor_args": {},
+                "attr_id": "view-0-section-1-element-1",
+                "css_classes": "button-300-150",
+                "view_action": {
+                  "target": null,
+                  "view_id": null
+                },
+                "label": "Options",
+                "send_onrelease": false,
+                "message_data": [
+                  {
+                    "key": "start",
+                    "value": "options"
+                  }
+                ]
+              }
+            }
+          ],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "id": "view-1",
+      "sections": [
+        {
+          "id": "view-1-section-0",
+          "elements": [
+            {
+              "id": "view-1-section-0-element-0",
+              "key": "swipe_digital",
+              "name": "Swipe Digital",
+              "tmpl": "swipe_digital",
+              "constructor_fn": "SwipeDigitalElement",
+              "options": {
+                "constructor_args": {
+                  "min_swipe_distance": 30,
+                  "allowed_directions": "fourway"
+                },
+                "attr_id": "view-1-section-0-element-0",
+                "css_classes": "",
+                "view_action": {
+                  "target": null,
+                  "view_id": null
+                }
+              }
+            }
+          ],
+          "classes": []
+        },
+        {
+          "id": "view-1-section-1",
+          "elements": [
+            {
+              "id": "view-1-section-1-element-0",
+              "key": "button",
+              "name": "Button",
+              "tmpl": "button",
+              "constructor_fn": "ButtonElement",
+              "options": {
+                "constructor_args": {},
+                "attr_id": "view-1-section-1-element-0",
+                "css_classes": "button-300-150",
+                "view_action": {
+                  "target": null,
+                  "view_id": null
+                },
+                "label": "Placeholder A",
+                "send_onrelease": false,
+                "message_data": []
+              }
+            },
+            {
+              "id": "view-1-section-1-element-1",
+              "key": "button",
+              "name": "Button",
+              "tmpl": "button",
+              "constructor_fn": "ButtonElement",
+              "options": {
+                "constructor_args": {},
+                "attr_id": "view-1-section-1-element-1",
+                "css_classes": "button-300-150",
+                "view_action": {
+                  "target": null,
+                  "view_id": null
+                },
+                "label": "Placeholder B",
+                "send_onrelease": false,
+                "message_data": []
+              }
+            }
+          ],
+          "classes": []
+        }
+      ]
+    },
+    {
+      "id": "view-2",
+      "sections": [
+        {
+          "id": "view-2-section-0",
+          "elements": [],
+          "classes": []
+        }
+      ]
+    }
+  ]
+}

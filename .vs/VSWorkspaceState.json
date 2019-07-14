@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\controller",
+    "\\controller\\js",
+    "\\controller\\libs",
+    "\\controller\\styles",
+    "\\controller\\templates",
+    "\\js",
+    "\\js\\plugins",
+    "\\movies"
+  ],
+  "SelectedNode": "\\js\\plugins\\Platformer.js",
+  "PreviewInSolutionExplorer": false
+}
